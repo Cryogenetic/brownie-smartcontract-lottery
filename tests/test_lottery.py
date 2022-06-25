@@ -17,4 +17,5 @@ def test_get_entrance_fee():
 
 def test_rng():
     account = get_account()
-    lottery_address = address(this).address
+    contractaddress = address(this).address
+    random_number = Lottery.requestRandomWords()
